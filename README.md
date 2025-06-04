@@ -52,3 +52,11 @@ The simulation can be customized by modifying:
 2. Cost structure in `main.py`
 3. Forecasting parameters in `utils.py`
 4. Simulation steps and random seed in `main.py`
+
+
+```mermaid
+graph TD
+  A[Start] --> B{Is it working?}
+  B -- Yes --> C[Great!]
+  B -- No --> D[Fix it]
+  D --> B
